@@ -1,0 +1,17 @@
+mode: normal
+workdir: MQuaLix
+lang: cpp
+arguments: ~/Masaüstü/Projeler/MQuaLix/test.micrap
+arguments: ~/Masaüstü/Projeler/MQuaLix/test.micrab
+compile
+run
+
+# ---
+
+mode: verilog
+workdir: Chip
+lang: verilog
+verilog.filename: chip
+verilog.wavename: dalga
+compile
+run
