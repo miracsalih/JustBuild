@@ -1,0 +1,16 @@
+// Örnek:
+
+"my_compile": {
+    workdir: ~/Masaüstü/Projeler/JustBuild;
+    lang: C++;
+}
+
+"my_run": {
+    arguments: [
+        ~/Masaüstü/Projeler/JustBuild/test.build
+        ~/Masaüstü/Projeler/JustBuild/test.out
+    ];
+}
+
+compile: "my_compile";
+run: "my_run";
