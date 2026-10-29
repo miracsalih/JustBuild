@@ -181,7 +181,7 @@ std::vector<Lexer> lexer(std::string& code)
     return lexerlayer2;
 }
 
-std::string parser(std::vector<Lexer>) {
+Command parser(std::vector<Lexer>) {
     // here...
-    return "";
+    return {};
 }
