@@ -1,0 +1,11 @@
+# Bunu çalıştırabilecek tek uygulama: https://github.com/miracsalih/JustBuild
+
+# Lütfen test.build ile karıştırmayın!
+
+mode: normal
+workdir: Builder
+arguments: ~/Masaüstü/Projeler/Builder/test.build
+arguments: ~/Masaüstü/Projeler/Builder/test.out
+lang: cpp
+compile
+run
